@@ -6,3 +6,9 @@
     owner: root
     group: root
     mode: 0644
+
+- name: Install qemu-guest-agent package
+  yum:
+    name:
+      - qemu-guest-agent
+    state: present
