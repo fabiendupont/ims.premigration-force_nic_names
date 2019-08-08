@@ -1,5 +1,4 @@
 ---
----
 - name: Create udev rule file to associate MAC address and NIC name
   template:
     src: udev_rules_nics.j2
